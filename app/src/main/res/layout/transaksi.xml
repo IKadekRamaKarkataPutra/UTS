@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sand">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ic_baseline_credit_card_24" />
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="237dp"
+            android:text="No.rekening tujuan"
+            android:textStyle="bold"
+            android:lineSpacingExtra="0sp"
+            android:gravity="center_horizontal|top"/>
+        <EditText
+            android:layout_width="232dp"
+            android:layout_height="30dp"
+            android:hint="xxxx-xxxx-xxxx-xxxx"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="266dp"
+            android:background="@color/white"
+            android:elevation="4dp"/>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="342dp"
+            android:text="Jumlah Uang"
+            android:textStyle="bold"
+            android:lineSpacingExtra="0sp"
+            android:gravity="center_horizontal|top"/>
+        <EditText
+            android:layout_width="232dp"
+            android:layout_height="30dp"
+            android:hint="Rp.xxxxxxxxxxx"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="368dp"
+            android:background="@color/white"
+            android:elevation="4dp"/>
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="27dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="441dp"
+            android:text="Pesan"
+            android:textStyle="bold"
+            android:lineSpacingExtra="0sp"
+            android:gravity="center_horizontal|top"/>
+
+        <EditText
+            android:layout_width="232dp"
+            android:layout_height="30dp"
+            android:hint="pesan"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="468dp"
+            android:background="@color/white"
+            android:elevation="4dp"/>
+        <Button
+            android:layout_width="122dp"
+            android:layout_height="57dp"
+            android:text="Confirm"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="594dp"
+            android:background="@color/button1"
+            android:elevation="4dp"/>
+
+    </RelativeLayout>
+
+</layout>

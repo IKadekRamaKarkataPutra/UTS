@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/opsi_profil"
+        android:orderInCategory="1"
+        android:title="Profil"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/opsi_saldo"
+        android:orderInCategory="2"
+        android:title="Saldo"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="4"
+        android:title="Log out"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/opsi_transaksi"
+        android:orderInCategory="3"
+        android:title="Transaksi"
+        app:showAsAction="never"/>
+
+
+
+</menu>
